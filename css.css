@@ -1,0 +1,68 @@
+
+h6{
+	color: green;
+}
+.div-1{
+	width: 300px;
+	height: 300px;
+	background-color: #ff4444;
+	float: left;
+	padding-top: 50px;
+}
+.div-2{
+	width: 300px;
+	height: 300px;
+	background-color: #ffff44;
+	float: left;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+.div-3{
+	width: 300px;
+	height: 300px;
+	background-image: url("https://static.wikia.nocookie.net/dogopedyrussian/images/7/72/486840.jpeg/revision/latest?cb=20181028100942&path-prefix=ru");
+	background-size: cover;
+	background-position: center;
+	float: left;
+	clear: both;
+}
+.div31{
+	width: 100%;
+	height: 100%;
+	background-color: #00000066;
+}
+.div-4{
+	width: 300px;
+	height: 300px;
+	background-color: #4444FF;
+	float: left;
+	box-shadow: -10px 0 20px black;
+}
+.div-5{
+	width: 300px;
+	height: 300px;
+	background-color: #FF44FF;
+	margin: auto;
+	clear: both;
+	transition: background-color 0.3s ease;
+}
+.div-5:hover{
+	background-color: red;
+}
+.div-main{
+	display: grid;
+	grid-template-columns:1fr 1fr 2fr;
+	grid-gap: 20px;
+	height: 100vh
+}
+.item{
+	background-color: crimson;
+}
+.i1{
+	grid-row:1 ;
+	grid-column: 1/3;
+}
+.i2{
+	grid-row: 1/3;
+	grid-column: 3;
+}
